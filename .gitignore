@@ -1,0 +1,40 @@
+# --- Python ---
+venv/
+*.pyc
+__pycache__/
+*/__pycache__/
+*.pyo
+*.pyd
+*.pdb
+*.sql
+*.sqlite3
+
+# --- Django ---
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# --- Environment ---
+.env
+.env.local
+*.secret
+*.key
+
+# --- macOS ---
+.DS_Store
+
+# --- Node / React / Vite ---
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# --- IDE ---
+.vscode/
+.idea/
+
+# --- Others ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
